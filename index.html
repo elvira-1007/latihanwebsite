@@ -3,113 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
+    <title>Portfolio | Elvira Margareth Simbolon</title>
 
+    <!-- Menghubungkan file CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav>
-        <h2 class="logo">Porto<span>folio.</span></h2>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Elvira<span>.</span></div>
 
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Home -->
-    <section id="home" class="home">
-        <div class="home-text">
-            <h3>Halo, Saya</h3>
-            <h1>Elvira Margareth Simbolon</h1>
-            <h2>Pelajar & Web Developer</h2>
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <p class="greeting">HELLO, WELCOME TO MY PORTFOLIO</p>
 
-            <p>
-                Selamat datang di website portofolio saya.
-                Saya sedang belajar membuat website
-                menggunakan HTML dan CSS.
+            <h1>Hi, I'm <span>Elvira Margareth Simbolon</span></h1>
+
+            <h2>I'm a Beginner Web Developer</h2>
+
+            <p class="description">
+                Saya adalah seseorang yang memiliki ketertarikan
+                dalam dunia teknologi dan pengembangan website.
+                Saya senang mempelajari hal-hal baru, khususnya
+                dalam bidang pemrograman dan desain web.
             </p>
 
-            <a href="#about" class="btn">Tentang Saya</a>
+            <a href="#about" class="btn">About Me</a>
         </div>
-   </section>
 
-    <!-- About -->
-    <section id="about">
-        <h2 class="judul">Tentang <span>Saya</span></h2>
+        <div class="home-image">
+            <div class="profile-box">
+                <div class="profile-icon">EM</div>
+                <h3>Elvira Margareth</h3>
+                <p>Web Developer Enthusiast</p>
+            </div>
+        </div>
+    </section>
 
-        <p class="deskripsi">
-            Halo! Nama saya elvira margareth simbolon. Saya adalah seorang pelajar
-            yang memiliki ketertarikan dalam dunia teknologi.
-            Saya senang mempelajari coding, desain, dan membuat website.
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-content">
+            <h3>Perkenalkan, Saya Elvira Margareth Simbolon</h3>
+
+            <p>
+                Saya merupakan seorang individu yang tertarik
+                dengan dunia teknologi informasi, terutama
+                pengembangan website. Saya memiliki semangat
+                untuk terus belajar dan mengembangkan kemampuan
+                di bidang pemrograman.
+            </p>
+
+            <p>
+                Saya mulai mempelajari HTML dan CSS untuk
+                membangun tampilan website serta Java pada
+                tingkat dasar untuk memahami konsep pemrograman.
+                Saya percaya bahwa proses belajar dan konsistensi
+                merupakan kunci untuk menjadi lebih baik.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <p class="section-description">
+            Berikut adalah beberapa kemampuan yang sedang
+            saya pelajari dan kembangkan.
         </p>
-    </section>
 
-    <!-- Skills -->
-    <section id="skills">
-        <h2 class="judul">My <span>Skills</span></h2>
+        <div class="skills-container">
 
-        <div class="container">
-            <div class="card">
+            <div class="skill-card">
                 <h3>HTML</h3>
-                <p>Membuat struktur halaman website.</p>
+                <p>
+                    Memahami struktur dasar HTML untuk
+                    membuat halaman website.
+                </p>
+                <div class="skill-level">
+                    <div class="html-level"></div>
+                </div>
+                <span>Dasar</span>
             </div>
 
-            <div class="card">
+            <div class="skill-card">
                 <h3>CSS</h3>
-                <p>Mengatur desain dan tampilan website.</p>
+                <p>
+                    Memahami styling website, warna,
+                    layout, dan desain responsif.
+                </p>
+                <div class="skill-level">
+                    <div class="css-level"></div>
+                </div>
+                <span>Dasar</span>
             </div>
 
-            <div class="card">
-                <h3>JavaScript</h3>
-                <p>Membuat website menjadi interaktif.</p>
+            <div class="skill-card">
+                <h3>Java</h3>
+                <p>
+                    Memahami konsep dasar pemrograman
+                    menggunakan bahasa Java.
+                </p>
+                <div class="skill-level">
+                    <div class="java-level"></div>
+                </div>
+                <span>Dasar</span>
             </div>
+
         </div>
     </section>
 
-    <!-- Project -->
-    <section id="project">
-        <h2 class="judul">My <span>Project</span></h2>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
 
-        <div class="container">
-            <div class="card">
-                <h3>Project 1</h3>
-                <p>Membuat website sederhana.</p>
-            </div>
-
-            <div class="card">
-                <h3>Project 2</h3>
-                <p>Membuat desain landing page.</p>
-            </div>
-
-            <div class="card">
-                <h3>Project 3</h3>
-                <p>Membuat website portofolio.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-        <h2 class="judul">Contact <span>Me</span></h2>
-
-        <p class="deskripsi">
-            Terima kasih sudah mengunjungi portofolio saya!
+        <p>
+            Terima kasih telah mengunjungi portfolio saya.
+            Saya terbuka untuk belajar, berkembang, dan
+            mendapatkan pengalaman baru.
         </p>
 
         <a href="mailto:elviramargareth@gmail.com" class="btn">
-            Hubungi Saya
+            Send Email
         </a>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>© 2026 Elvira margareth. All Rights Reserved.</p>
+        <p>
+            &copy; 2026 Elvira Margareth Simbolon.
+            All Rights Reserved.
+        </p>
     </footer>
 
 </body>
